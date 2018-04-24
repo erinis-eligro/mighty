@@ -1,35 +1,24 @@
-## Welcome to GitHub Pages
+# Welcome to GitHub Pages
 
 마이티 게임을 위한 공간입니다. [아티텍쳐](Docs/architecture.md)
 
-### Markdown
+## Overview
+일단 구성 할 방법 나열
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Application
+어플리케이션 구조는 나중에
+어플리케이션 화면 기획
 
-```markdown
-Syntax highlighted code block
+### Infrastructure
+모든 서버 인프라는 Cloud 를 이용
+- 인프라는 RDB (AWS AuraDB) 만 구축해서 사용 할 예정
+- 모든 API 트랜젝션 처리는 AWS Lambda 를 이용
+- 퍼포먼스, 데이터 양 은 일단 무시 기능 구현만을 위함
 
-# Header 1
-## Header 2
-### Header 3
+추가로 더 필요한 것이 있을까?
+NoSQL 을 사용 할 필요 있을까?
+진행 중인 게임은 In memory 를 이용해야 하나?
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/erinis-eligro/mighty/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+### Data Structure
+서버 API 개발이 없기 때문에 데이터 구조가 가장 중요.
+데이터 구조는 나중에
