@@ -7,7 +7,7 @@
 
 ### Application
 어플리케이션 구조는 나중에
-어플리케이션 화면 기획
+어플리케이션 화면 기획도 나중에
 
 ### Infrastructure
 모든 서버 인프라는 Cloud 를 이용
